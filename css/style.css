@@ -138,3 +138,110 @@ box-shadow: 1px 1px 100px -69px rgba(13,16,37,1);
     gap: 10px;
     margin-top: 15px;
 }
+
+.third-section{
+    background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
+}
+
+.plan-blocks{
+    margin-top: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.plan-block{
+    min-width: 330px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+.plan-block:hover{
+    border: 2px solid #F53838;
+}
+.plan__block-title{
+    padding-top: 200px;
+
+    text-align: center;
+}
+
+.plan-block__box{
+    margin-top: 80px;
+}
+
+.plan__title{
+    color: #0B132A;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.plan__subtitile{
+    color: #4F5665;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.plan-block__tittle{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.plan__items{
+    margin-top: 30px;  
+}
+
+.plan__item{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 30px;
+    gap: 20px;
+}
+
+.plan__text{
+    color: #4F5665;
+}
+.plan__price-block{
+    margin-top: 50px;
+}
+
+.price-block__price{
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.plan__btn{
+    width: 177px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: none;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    color: #F53838;
+    font-size: 16px;
+}
+.plan__btn:hover{
+    color: white;
+    background: #F53838;
+    transition: 20ms linear;
+}
+.network{
+    margin-top: 150px;
+    text-align: center;
+}
+.network__title{
+    font-size: 35px;
+    line-height: 50px;
+}
+.network__subtitle{
+    color: #4F5665;
+    font-size: 16px;
+    line-height: 30px;
+}
+.network-map{
+    margin-top: 155px;
+}
