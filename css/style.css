@@ -1,0 +1,140 @@
+body , ul,p{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: "Rubik";
+}
+.font-f-400{
+    font-weight: 400;
+}
+
+.font-f-500{
+    font-weight: 500;
+}
+
+.font-f-700{
+    font-weight: 700;
+}
+
+section{
+    max-width: 1206px;
+    margin-left: 150px;
+}
+
+.header{
+    min-height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-bar ul{
+    display: flex;
+    gap: 34px;
+}
+
+.header__nav-bar{
+    display: flex;
+}
+
+.header__nav-bar li{
+    list-style-type:none;
+    font-size: 16px;
+}
+
+.registration__button{
+    background: none;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.registration__sign-in{
+    border-color: white;
+    border: none;
+    color: #0B132A;
+}
+
+.registration__sign-up{
+    border-color: #F53855;
+    color: #F53855;
+}
+
+.home__title{
+    font-size: 50px;  
+    line-height: 70px; 
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__desc{
+    color: #4F5665;
+    line-height: 30px; 
+}
+
+.home__button{
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background: #F53838;
+    box-shadow: 2px 16px 38px rgba(255, 0, 0, 0.37);
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+.achievements{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    margin-top: 103px;
+    -webkit-box-shadow: 1px 1px 100px -69px rgba(13,16,37,1);
+-moz-box-shadow: 1px 1px 100px -69px rgba(13,16,37,1);
+box-shadow: 1px 1px 100px -69px rgba(13,16,37,1);
+}
+
+.achievements__complex{
+    display: flex;
+    gap: 36.5px;
+}
+.achievements__number{
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.achievements__subtitle{
+    color: #4F5665;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 95px;
+}
+
+.features__title{
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.features__subtitle{
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.feature__item{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
